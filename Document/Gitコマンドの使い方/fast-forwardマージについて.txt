@@ -1,0 +1,5 @@
+fast-forwardマージ -> 作業中ブランチがmainブランチの延長上にあるケースでマージする場合に、mainタグを作業中のブランチに移動すること
+あえてmainブランチからのマージコミットを作る場合は、git merge --no--ffというオプションをつける(no ffはno fast-forwardのこと)
+例：
+git checkout main
+git merge --no--ff br-a
