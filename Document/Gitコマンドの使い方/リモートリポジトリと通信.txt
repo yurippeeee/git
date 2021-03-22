@@ -1,0 +1,8 @@
+初回のみ
+git remote add origin リポジトリ名(githubならhttps://github.com/yurippeeee/git.gitみたいな感じ)
+
+リモートリポジトリに変更を送る
+git push origin master
+
+リモートリポジトリから変更を受け取る
+git pull origin master
